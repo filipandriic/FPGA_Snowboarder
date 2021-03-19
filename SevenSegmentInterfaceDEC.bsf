@@ -1,0 +1,138 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 64 64 200 248)
+	(text "SevenSegmentInterfaceDEC" (rect 5 0 125 12)(font "Arial" ))
+	(text "inst" (rect 8 160 25 172)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "x3" (rect 0 0 11 12)(font "Arial" ))
+		(text "x3" (rect 21 27 32 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "x2" (rect 0 0 11 12)(font "Arial" ))
+		(text "x2" (rect 21 43 32 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "x1" (rect 0 0 11 12)(font "Arial" ))
+		(text "x1" (rect 21 59 32 71)(font "Arial" ))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "x0" (rect 0 0 11 12)(font "Arial" ))
+		(text "x0" (rect 21 75 32 87)(font "Arial" ))
+		(line (pt 0 80)(pt 16 80))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "dot" (rect 0 0 15 12)(font "Arial" ))
+		(text "dot" (rect 21 91 36 103)(font "Arial" ))
+		(line (pt 0 96)(pt 16 96))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "en" (rect 0 0 11 12)(font "Arial" ))
+		(text "en" (rect 21 107 32 119)(font "Arial" ))
+		(line (pt 0 112)(pt 16 112))
+	)
+	(port
+		(pt 136 32)
+		(output)
+		(text "a" (rect 16 0 21 12)(font "Arial" ))
+		(text "a" (rect 111 27 115 39)(font "Arial" ))
+		(line (pt 136 32)(pt 120 32))
+	)
+	(port
+		(pt 136 48)
+		(output)
+		(text "b" (rect 16 0 21 12)(font "Arial" ))
+		(text "b" (rect 111 43 115 55)(font "Arial" ))
+		(line (pt 136 48)(pt 120 48))
+	)
+	(port
+		(pt 136 64)
+		(output)
+		(text "c" (rect 16 0 21 12)(font "Arial" ))
+		(text "c" (rect 111 59 115 71)(font "Arial" ))
+		(line (pt 136 64)(pt 120 64))
+	)
+	(port
+		(pt 136 80)
+		(output)
+		(text "d" (rect 16 0 21 12)(font "Arial" ))
+		(text "d" (rect 111 75 115 87)(font "Arial" ))
+		(line (pt 136 80)(pt 120 80))
+	)
+	(port
+		(pt 136 96)
+		(output)
+		(text "e" (rect 16 0 21 12)(font "Arial" ))
+		(text "e" (rect 111 91 115 103)(font "Arial" ))
+		(line (pt 136 96)(pt 120 96))
+	)
+	(port
+		(pt 136 112)
+		(output)
+		(text "f" (rect 16 0 20 12)(font "Arial" ))
+		(text "f" (rect 112 107 115 119)(font "Arial" ))
+		(line (pt 136 112)(pt 120 112))
+	)
+	(port
+		(pt 136 128)
+		(output)
+		(text "g" (rect 16 0 21 12)(font "Arial" ))
+		(text "g" (rect 111 123 115 135)(font "Arial" ))
+		(line (pt 136 128)(pt 120 128))
+	)
+	(port
+		(pt 136 144)
+		(output)
+		(text "dp" (rect 16 0 27 12)(font "Arial" ))
+		(text "dp" (rect 106 139 115 151)(font "Arial" ))
+		(line (pt 136 144)(pt 120 144))
+	)
+	(drawing
+		(text "a" (rect 64 48 71 62)(font "Arial" (font_size 8)))
+		(text "b" (rect 88 72 95 86)(font "Arial" (font_size 8)))
+		(text "c" (rect 88 104 95 118)(font "Arial" (font_size 8)))
+		(text "d" (rect 64 128 71 142)(font "Arial" (font_size 8)))
+		(text "e" (rect 40 104 47 118)(font "Arial" (font_size 8)))
+		(text "f" (rect 40 72 44 86)(font "Arial" (font_size 8)))
+		(text "g" (rect 64 80 71 94)(font "Arial" (font_size 8)))
+		(text "dp" (rect 88 128 102 142)(font "Arial" (font_size 8)))
+		(line (pt 80 96)(pt 48 96)(color 0 0 0)(line_width 2))
+		(rectangle (rect 16 16 120 160))
+		(rectangle (rect 48 64 80 128)(color 0 0 0)(line_width 2))
+		(circle (rect 88 120 96 128)(color 0 0 0)(line_width 2))
+	)
+)
